@@ -1,0 +1,42 @@
+h1 { margin-bottom: 0;
+}
+
+.box {	border: 1px solid black;
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+		font-weight: bold;
+		color: white;
+		margin-top: 50px;
+		margin-right: 50px;
+		float: left;
+		position: relative;
+	}
+
+	.box>img {
+		position: absolute;
+		top: -40px;
+		right: -40px; }
+
+.box:nth-child(3), .box:nth-child(5) {
+		clear: left;
+	}		
+
+
+#box1 { background-color: red;
+	}
+
+#box2 {background-color: orange;
+	}
+
+#box3 {background-color: yellow;
+        }
+
+#box4 {background-color: green;
+		}
+
+#box5 {background-color: blue;
+		}
+
+#box6 {background-color: pink;
+	 ;}

@@ -1,0 +1,39 @@
+h1,h2 {
+    	color: blue;
+    	text-decoration: underline;
+	}
+
+ul { 	list-style: disc;
+
+	}
+
+body { 	font-size: 17px ; 
+		font-family: 'Pacifico', cursive ;
+		background-image: url(img/Fall-beautiful-nature-22666764-900-562.jpg) ;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     }
+
+
+td,tr {	font-size: 20px ; 
+		padding: 2px ; b
+		order 1px ; 
+		color: black; border-style: ridge ; 
+		margin: 2px
+}
+
+a:link {
+    	color:red;
+}
+a:visited {
+    	color:black;
+}
+
+a:hover {
+    	color:blue;
+}
+a:active {
+    	color:green;
+}
+
